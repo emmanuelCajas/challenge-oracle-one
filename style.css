@@ -1,0 +1,137 @@
+
+
+.contenedor{
+
+    background-color: #f3f5fc;
+    width: 1440px;
+    height: 1040px;
+    padding-top: 20px;
+
+}
+
+.pregunta{
+    
+    background-color: #f3f5fc;
+    width: 1000px;
+    height: 944px;
+    float: left;
+    position: relative;
+    top: 40px;
+    
+}
+
+.cajaTexto{
+    display: flex;
+    position: relative;
+    color: #0A3871;
+    height: 48px;
+    width: 577px;
+    top: 168px;
+    left: 250px;
+    border: none;
+    font-size: 30px;
+    background-color: #f3f5fc;
+}
+
+.botonEncriptar {
+    
+    font-size: 20px;
+    color: white;
+
+    position: relative;
+    top: 700px;
+    left: 200px;
+    padding: 24px;
+    
+    text-align: center;
+    
+    width: 328px;
+    height: 67px;
+    
+    background: #0A3871;
+    border-radius: 24px;
+
+}
+
+.botonDesencriptar{
+    box-sizing: border-box;
+    
+    font-size: 20px;
+    position: relative;
+    top: 700px;
+    left: 240px;
+    padding: 24px;
+
+    width: 328px;
+    height: 67px;
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+}
+
+.respuesta{
+    float: left;
+    background-color: #ffffff;
+    width: 400px;
+    height: 944px;
+    border-radius: 32px;
+    position: relative;
+    top: 40px;
+}
+
+.muneco {
+    position: relative;
+    height: 304px;
+    width: 336px;
+    left: 40px;
+    top: 283px;
+}
+
+#cajaUno {
+    width: 206px;
+    height: 58px;
+    
+    position: relative;
+    top: 300px ;
+    left: 100px;
+
+    border: none;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    
+    text-align: center;
+    
+    color: #343A40;
+
+}
+
+#cajaDos {
+
+    width: 336px;
+    height: 48px;
+    
+    position: relative;
+    top: 280px ;
+    left: 35px;
+
+    border: none;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    
+    text-align: center;
+    
+    
+    color: #495057;
+    
+}
+
+
+
+

@@ -33,7 +33,7 @@
     background-color: #f3f5fc;
 }
 
-.botonEncriptar {
+.btnEncriptar {
     
     font-size: 20px;
     color: white;
@@ -53,7 +53,7 @@
 
 }
 
-.botonDesencriptar{
+.btnDesencriptar{
     box-sizing: border-box;
     
     font-size: 20px;

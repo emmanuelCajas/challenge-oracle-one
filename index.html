@@ -18,8 +18,7 @@
         <div class="pregunta">
           
           <img src="img/Vector.png"  alt="" />
-          <input type="text" class="cajaTexto" value="Ingrese el texto aqui"/>
-
+          <input type="text" class="cajaTexto" placeholder="Ingrese el texto aqui"/>
           <button class="btnEncriptar">Encriptar</button>
           <button class="btnDesencriptar">Desencriptar</button>
 
@@ -27,9 +26,16 @@
 
         <div class="respuesta">
 
-          <img src="img/Muñeco.png" class="muneco" alt="" />
-          <p id="cajaUno">Ningun mensaje fue encontrado</p>
-          <p id="cajaDos">Ingresa el texto que deseas encriptar o desencriptar</p>
+          <div class="textoRespuesta">
+            <textarea name="" id="imprimirRespuesta" cols="10" rows="5"></textarea>
+          </div>
+          
+          <div class="mensajeError">
+            <img src="img/Muñeco.png" class="muneco" alt="" />
+            <p id="cajaUno">Ningun mensaje fue encontrado</p>
+            <p id="cajaDos">Ingresa el texto que deseas encriptar o desencriptar</p>
+          </div>
+
 
         </div>
       </div>

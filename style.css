@@ -3,8 +3,10 @@
 .contenedor{
 
     background-color: #f3f5fc;
+
+
     width: 1440px;
-    height: 1040px;
+    height: 1024px;
     padding-top: 20px;
 
 }
@@ -87,7 +89,7 @@
     height: 304px;
     width: 336px;
     left: 40px;
-    top: 283px;
+    top: 50px;
 }
 
 #cajaUno {
@@ -95,7 +97,7 @@
     height: 58px;
     
     position: relative;
-    top: 300px ;
+    top: 20px ;
     left: 100px;
 
     border: none;
@@ -116,7 +118,7 @@
     height: 48px;
     
     position: relative;
-    top: 280px ;
+    top: 20px ;
     left: 35px;
 
     border: none;
@@ -127,9 +129,17 @@
     
     text-align: center;
     
-    
     color: #495057;
     
+}
+
+#imprimirRespuesta{
+
+    position: relative;
+    top: 300px;
+    left: 70px;
+    border: none;
+    font-size: 40px;
 }
 
 
